@@ -14,7 +14,7 @@ speech = LiveSpeech(
     full_utt=False,
     hmm=os.path.join(model_path, 'en-us'),
     lm=os.path.join(model_path, 'en-us.lm.bin'),
-    dic=os.path.join(model_path, 'mukul.dict')
+    dic='mukul.dict'
 )
 
 # speech.set_jsgf_file("letters", "vimium.gram")
