@@ -1,0 +1,6 @@
+#JSGF V1.0;
+grammar command;
+public <command> = (<number> <caseverb> | <caseverb> );
+<number> = (one. | two. | three. | four. | five. | six. | seven. | eight. | nine. | ten.);
+<caseverb> = (<verb> | capital <verb>);
+<verb> = (j. | k. | f. | x. | t.);
